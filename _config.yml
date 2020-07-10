@@ -1,0 +1,25 @@
+title:              Blog
+email:              jamescastro98@gmail.com
+description:        Miscellanous Ruminations on Life
+author:             James Castro
+baseurl:            "/blog"
+url:                "https://jamescastro98.github.io"
+
+# Social Profiles
+twitter_username:   
+github_username:    jamescastro98
+facebook_username: 
+instagram_username:  
+linkedin_username:
+
+# Add your google-analytics ID here to activate google analytics
+google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
+
+# Build settings
+markdown:           kramdown
+paginate:           5
+paginate_path:      "/posts/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
