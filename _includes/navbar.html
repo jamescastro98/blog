@@ -1,26 +1,127 @@
 <!-- Navigation -->
-<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-  <div class="container">
-    <a class="navbar-brand" href="{{"/" | relative_url }}">{{ site.title | escape }}</a>
-    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-      Menu
-      <i class="fa fa-bars"></i>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarResponsive">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="{{"/" | relative_url }}">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="{{"/about" | relative_url }}">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="{{ "/posts" | relative_url }}">Posts</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="{{"/contact" | relative_url }}">Contact</a>
-        </li>
-      </ul>
+<head>
+  <title>James Castro Site</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge;" />
+
+  <link href="https://unpkg.com/cirrus-ui" type="text/css" rel="stylesheet" />
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> 
+  <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,600,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+ 
+<!-- Compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  
+<style>
+      html {
+          scroll-behavior: smooth;
+      }
+
+      .grid-container {
+      display: grid;
+          grid-template-columns: auto auto auto;
+          margin: 0 auto;
+      }
+      .grid-item {
+          padding: 10px;
+          margin-top:10px;
+          overflow: hidden;
+      }
+
+      .fontwrap{
+          font-family: 'Montserrat';
+      }
+      .backnav{
+          background-color: #182440;
+      }
+      .divider{
+          background-color:#182440;
+          min-height:5vh;
+          background-attachment: fixed;
+          background-position: center;
+          background-repeat: no-repeat;
+          width:80vw;
+          background-size: cover;
+          font-size:30px;
+          font-weight: bold;
+          color:white;
+      }
+      .about{
+          background-color:#343a40;
+          color:white;
+      }
+
+      .work{
+          background-color:#343a40;
+          color:white;
+      }
+      .contact{
+          background-color: #343a40;
+          color:white;
+      }
+      .subtitle{
+          font-size:20px;
+          letter-spacing:2px;
+      }
+      .footer{
+          background-color:black;
+          color:white;
+          font-size:13px;
+          font-family: 'Montserrat';
+          text-align:center;
+          font-weight: bold;
+      }
+
+      .card{
+          text-align:center;
+          color:black;
+      }
+      .parallax{
+          background-image: url("original.png");
+        
+       /* Set a specific height */
+           min-height: 100vh; 
+        
+          /* Create the parallax scrolling effect */
+          background-attachment: fixed;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          color:white;
+         
+      }
+      .landing{
+          height:100vh;
+          font-weight: bold;
+          font-size:90px;
+          letter-spacing:8px;
+      }
+      .backpane{
+          background-color:white;
+          width:80vw;
+          float:center;
+          margin-left:10vw;
+      }
+     
+  </style>
+</head>
+<div class="fontwrap">
+<div class="navbar-fixed">
+  <nav class="backnav">
+    <div class="nav-wrapper">
+      <a href="https://jamescastro98.github.io" class="brand-logo">JC</a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><a href="https://jamescastro98.github.io#about">About</a></li>
+          <li><a href="https://jamescastro98.github.io#portfolio">Portfolio</a></li>
+          <li><a href="https://jamescastro98.github.io#contact">Contact</a></li>
+          <li><a href="https://jamescastro98.github.io/blog">Blog</a></li>
+        </ul>
     </div>
-  </div>
-</nav>
+  </nav>
+</div>
+</div>
